@@ -1,0 +1,14 @@
+.Dashboard {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Dashboard .NewsTable {
+  flex: 5;
+}
+
+.Dashboard .NewsTimeline {
+  flex: 2;
+}

@@ -1,12 +1,12 @@
 /**
  * Get hostname of the url
- * @param {string} url 
+ * @param {string} url
  */
 function getHostName(url) {
   if (url) {
     return new URL(url).hostname;
   }
-  return '';
+  return "";
 }
 
-export default getHostName
+export default getHostName;

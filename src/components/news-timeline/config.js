@@ -7,27 +7,31 @@ const CHART_OPTIONS = {
   layout: {
     padding: {
       top: 20,
-      bottom: 10
-    }
+      bottom: 10,
+    },
   },
   scales: {
-    xAxes: [{
-      scaleLabel: {
-        display: true,
-        fontStyle: 'bold',
-        fontSize: 18,
-        labelString: 'ID'
-      }
-    }],
-    yAxes: [{
-      scaleLabel: {
-        display: true,
-        fontStyle: 'bold',
-        fontSize: 18,
-        labelString: 'Votes'
-      }
-    }]
-  }
+    xAxes: [
+      {
+        scaleLabel: {
+          display: true,
+          fontStyle: "bold",
+          fontSize: 18,
+          labelString: "ID",
+        },
+      },
+    ],
+    yAxes: [
+      {
+        scaleLabel: {
+          display: true,
+          fontStyle: "bold",
+          fontSize: 18,
+          labelString: "Votes",
+        },
+      },
+    ],
+  },
 };
 
 export default CHART_OPTIONS;

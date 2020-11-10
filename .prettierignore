@@ -1,0 +1,10 @@
+coverage/
+dist/
+documentation/
+node_modules/
+.config/
+.npm/
+
+package.json
+package-lock.json
+yarn.lock

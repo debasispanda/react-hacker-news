@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-import './NewsTable.css';
-import NewsTableRow from './NewsTableRow';
+import "./NewsTable.css";
+import NewsTableRow from "./NewsTableRow";
 
 const NewsTable = ({ news, onHideNews, onUpvoteNews }) => {
   return (
@@ -16,17 +16,21 @@ const NewsTable = ({ news, onHideNews, onUpvoteNews }) => {
           </tr>
         </thead>
         <tbody>
-          <NewsTableRow news={news} onHideNews={onHideNews} onUpvoteNews={onUpvoteNews}></NewsTableRow>
+          <NewsTableRow
+            news={news}
+            onHideNews={onHideNews}
+            onUpvoteNews={onUpvoteNews}
+          ></NewsTableRow>
         </tbody>
       </table>
     </div>
   );
-}
+};
 
 NewsTable.propTypes = {
   news: PropTypes.array,
   onHideNews: PropTypes.func,
-  onUpvoteNews: PropTypes.func
+  onUpvoteNews: PropTypes.func,
 };
 
 export default NewsTable;

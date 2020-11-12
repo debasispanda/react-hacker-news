@@ -1,3 +1,5 @@
+![Hacker News CI](https://github.com/debasispanda/react-hacker-news/workflows/Hacker%20News%20CI/badge.svg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -31,6 +31,7 @@ const Pagination = ({ totalPages, currentPage, loading }) => {
 Pagination.propTypes = {
   totalPages: PropTypes.number,
   currentPage: PropTypes.number,
+  loading: PropTypes.bool,
 };
 
 export default Pagination;
